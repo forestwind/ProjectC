@@ -3,14 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Engine/GameInstance.h"
-#include "CGameInstance.generated.h"
+#include "GameFramework/GameModeBase.h"
+#include "PBGameModeBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class PROJECTC_API UCGameInstance : public UGameInstance
+class PROJECTC_API APBGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
