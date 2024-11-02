@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "Engine/GameInstance.h"
-#include "PBGameInstance.generated.h"
+#include "PCGameInstance.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class PROJECTC_API UPBGameInstance : public UGameInstance
+class PROJECTC_API UPCGameInstance : public UGameInstance
 {
 	GENERATED_BODY()
 	
